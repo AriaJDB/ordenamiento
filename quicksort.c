@@ -56,12 +56,6 @@ int compareInt(void *a, void *b) {
 }
 
 // Función para imprimir el array de enteros
-void printArray(void **data, int length) {
-    for (int i = 0; i < length; i++) {
-        printf("%d ", *(int *)data[i]);
-    }
-    printf("\n");
-}
 
 int main() {
     void *data[10];
